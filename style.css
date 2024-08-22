@@ -3,7 +3,7 @@
 /* common */
 
 body {
-  background: pink;
+  /* background: pink; */
 }
 
 .container {
@@ -24,4 +24,42 @@ h1 {
 
 h1 img {
   width: 168px;
+}
+
+/* main */
+
+h2 {
+  font-weight: normal;
+  margin: 0;
+  font-size: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin: 32px 0;
+}
+
+.products a {
+  text-decoration: none;
+  color: inherit;
+}
+
+main img {
+  width: 176px;
+}
+
+h3 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+p {
+  margin: 0;
+}
+
+.products a:hover {
+  opacity: 0.6;
 }
