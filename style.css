@@ -60,13 +60,19 @@ h1 img {
   margin: 32px 0;
 }
 
+.products section {
+  width: calc((100% - 64px) / 3 );
+  box-sizing: border-box;
+}
+
 .products a {
   text-decoration: none;
   color: inherit;
 }
 
-main img {
-  width: 176px;
+.products img {
+  width: 100%;
+  height: auto;
 }
 
 .products a:hover {
