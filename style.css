@@ -33,6 +33,11 @@ p {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .container {
   max-width: 600px;
   margin: 0 auto;
@@ -65,11 +70,6 @@ h1 img {
   box-sizing: border-box;
 }
 
-.products a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .products img {
   width: 100%;
   height: auto;
@@ -93,7 +93,7 @@ small {
 
 /* product-page */
 
-.product-page .container {
+.product-page {
   display: flex;
   gap: 32px;
 }
@@ -109,6 +109,7 @@ small {
 button {
   margin-top: 16px;
   padding: 8px 16px;
+  cursor: pointer;
 }
 
 .product-img {
@@ -117,4 +118,5 @@ button {
 
 .product-img img {
   width: 100%;
+  height: auto;
 }
