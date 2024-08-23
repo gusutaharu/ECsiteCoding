@@ -57,7 +57,7 @@ h1 img {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
-  margin: 32px 0;
+  margin-top: 32px;
 }
 
 .products section {
@@ -83,5 +83,38 @@ h1 img {
 
 footer {
   text-align: center;
-  padding-bottom: 32px;
+  padding: 32px 0;
+}
+
+small {
+  font-size: 14px;
+  margin: 0;
+}
+
+/* product-page */
+
+.product-page .container {
+  display: flex;
+  gap: 32px;
+}
+
+.information {
+  flex: 1;
+}
+
+.information p {
+  margin-top: 16px;
+}
+
+button {
+  margin-top: 16px;
+  padding: 8px 16px;
+}
+
+.product-img {
+  flex: 1;
+}
+
+.product-img img {
+  width: 100%;
 }
